@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:skyblue; 
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgb(51, 51, 123);
+    border-radius: 8px;
+    padding: 20px;
+}
+.container h1 {
+    text-align: center;
+    color: black;
+}
+.input-container {
+    margin-bottom: 20px;
+}
+.input-container input, .input-container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.result {
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    border: 1px solid white;
+    border-radius: 5px;
+}
